@@ -1182,6 +1182,7 @@ unknown:
 
         case 'z': /* remove break/watchpoint */
         case 'Z': /* insert break/watchpoint */
+	    ;
             gdbstub_breakpoint_t *breakpoint, *prev_breakpoint = NULL, **first_breakpoint;
 
             /* Parse breakpoint type. */
